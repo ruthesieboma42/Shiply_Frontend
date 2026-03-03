@@ -4,13 +4,13 @@ A modern, responsive logistics platform frontend built with React, Vite, and Fra
 
 ## Features
 
-- 🚀 Fast development with Vite
-- 🎨 Beautiful UI with custom design system
-- 🔐 JWT authentication
-- 📱 Fully responsive design
-- ✨ Smooth animations with Framer Motion
-- 🎯 Role-based routing (Customer/Driver)
-- 📦 Package tracking and management
+-  Fast development with Vite
+-  Beautiful UI with custom design system
+-  JWT authentication
+-  Fully responsive design
+-  Smooth animations with Framer Motion
+-  Role-based routing (Customer/Driver)
+-  Package tracking and management
 
 ## Tech Stack
 
@@ -21,55 +21,8 @@ A modern, responsive logistics platform frontend built with React, Vite, and Fra
 - **Framer Motion** - Animation library
 - **Custom CSS** - Styling with CSS variables
 
-## Prerequisites
 
-- Node.js 16+ and npm/yarn
-- Backend API running (see backend documentation)
 
-## Installation
-
-1. Clone the repository
-2. Install dependencies:
-
-```bash
-npm install
-```
-
-3. Create a `.env` file based on `.env.example`:
-
-```bash
-cp .env.example .env
-```
-
-4. Update the `.env` file with your API URL:
-
-```env
-VITE_API_URL=http://localhost:5000/api
-```
-
-## Development
-
-Start the development server:
-
-```bash
-npm run dev
-```
-
-The app will be available at `http://localhost:3000`
-
-## Build
-
-Create a production build:
-
-```bash
-npm run build
-```
-
-Preview the production build:
-
-```bash
-npm run preview
-```
 
 ## Project Structure
 
@@ -130,7 +83,7 @@ The frontend connects to the backend API with the following endpoints:
 
 The app uses a custom design system with:
 
-- **Primary Colors**: Dark theme with gradient accents
+- **Primary Colors**: Dark theme with bright accents
 - **Typography**: Syne (headings) + DM Sans (body)
 - **Components**: Glass-morphism cards, animated buttons
 - **Animations**: Smooth page transitions and micro-interactions
@@ -169,24 +122,3 @@ The app uses a custom design system with:
 - Tracking information
 - Cancellation option
 
-## Environment Variables
-
-- `VITE_API_URL` - Backend API base URL
-
-## Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-
-## Contributing
-
-1. Create a feature branch
-2. Make your changes
-3. Test thoroughly
-4. Submit a pull request
-
-## License
-
-MIT
