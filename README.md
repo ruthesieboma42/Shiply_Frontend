@@ -79,46 +79,9 @@ The frontend connects to the backend API with the following endpoints:
 - `PUT /api/shipment/:id/status` - Update status (Driver)
 - `PUT /api/shipment/:id/cancel` - Cancel shipment (Customer)
 
-## Design System
-
-The app uses a custom design system with:
-
-- **Primary Colors**: Dark theme with bright accents
-- **Typography**: Syne (headings) + DM Sans (body)
-- **Components**: Glass-morphism cards, animated buttons
-- **Animations**: Smooth page transitions and micro-interactions
-
-## Features by Page
-
-### Landing Page
-- Hero section with animated cards
-- Feature highlights
-- Statistics showcase
-- Call-to-action sections
-
-### Authentication
-- Login and registration forms
-- Form validation
-- Error handling
-- Visual feedback
-
-### Send Package (Customer)
-- Multi-step form
-- Address input
-- Package details
-- Pricing information
-- Success confirmation with tracking number
-
-### Driver Dashboard
-- Available shipments grid
-- Active deliveries management
-- Status updates
-- Earnings tracking
-
-### My Packages
-- Package list with search
-- Status filtering
-- Timeline visualization
-- Tracking information
-- Cancellation option
+## What I Learned
+- Structuring data flow across multiple UI layers
+- Handling shared state across different user roles
+- Designing reusable components for scalable frontend systems
+- Organizing frontend logic for real-time-like experiences
 
