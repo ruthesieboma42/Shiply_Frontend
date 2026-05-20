@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useAuth } from '../context/AuthContext';
 import './Landing.css';
+import heroImage from '../public/hero-image.jpg'
 
 const Landing = () => {
   const { isAuthenticated, isDriver } = useAuth();
@@ -74,7 +75,7 @@ const Landing = () => {
   className="hero-visual"
 >
   <img
-    src="./hero-image.jpg"
+    src= {heroImage}
     alt="Shiply delivery image"
     style={{
       width: '100%',
