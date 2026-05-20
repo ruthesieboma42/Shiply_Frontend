@@ -74,7 +74,7 @@ const Landing = () => {
   className="hero-visual"
 >
   <img
-    src="../../hero-image.jpg"
+    src="./hero-image.jpg"
     alt="Shiply delivery image"
     style={{
       width: '100%',
